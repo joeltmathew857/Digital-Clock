@@ -15,7 +15,7 @@
   </head>
   <body>
     <!--NavBar-->
-    <div class="bg-zinc-50 bg-cover bg-center p-6">
+    <div class="bg-green-50 bg-cover bg-center p-6">
       <nav class="flex justify-between items-center p-4">
         <div class="flex items-center">
           <img
@@ -23,24 +23,24 @@
             class="h-14 w-14"
             srcset=""
           />
-          <h1 class="font-quicksand font-light text-xl">SnapGro</h1>
+          <h1 class="font-quicksand font-light text-2xl">InstaGro</h1>
         </div>
         <div class="input-container items-center flex">
           <input
             type="text"
-            name="price"
-            id="price"
-            class="block w-full bg-gray-200 border-b border-gray-600 rounded-full py-2 pl-24 pr-28 text-black placeholder:text-gray-400 sm:text-base sm:leading-6"
+            name="Search"
+            id="Search"
+            class="block w-full bg-gray-200 border-gray-600 rounded-full py-2 pl-4 pr-32 text-black placeholder:text-gray-400 sm:text-base sm:leading-6"
             placeholder="Search"
           />
-          <i class="fas fa-search text-lg"></i>
+          <i class="fas fa-search text-xl"></i>
         </div>
         <div class="flex space-x-16">
           <a
             href="https://www.youtube.com/watch?v=SgmNxE9lWcY&t=167s"
             class="icon-container hover:text-sky-700 flex space-x-2 items-center"
           >
-            <i class="fa-solid fa-phone text-base"></i>
+            <i class="fa-solid fa-phone text-lg"></i>
             <!-- Increased icon size -->
             <p class="text-base">+880 1866 104 339</p>
             <!-- Increased text size -->
@@ -49,7 +49,7 @@
             href="https://tailwindcss.com/docs/hover-focus-and-other-states"
             class="icon-container hover:text-sky-700 flex space-x-2 items-center"
           >
-            <i class="fas fa-cart-shopping text-base"></i>
+            <i class="fas fa-cart-shopping text-lg"></i>
             <!-- Increased icon size -->
             <p class="text-base">$00.00</p>
             <!-- Increased text size -->
@@ -58,7 +58,7 @@
             href="https://www.pexels.com/"
             class="icon-container hover:text-sky-700 flex items-center"
           >
-            <i class="fas fa-user text-base"></i>
+            <i class="fas fa-user text-lg"></i>
             <!-- Increased icon size -->
           </a>
         </div>
@@ -91,23 +91,37 @@
     </div>
 
     <!--HEADER-->
-    <div>
-      <h1>"GreenCart: Your Virtual Veggie Market"</h1>
-      <p>
-        VegEase brings the farmer's market to your screen. Shop the freshest
-        vegetables with a click, and we'll deliver nature's goodness to your
-        door. Your convenient, healthy lifestyle starts here.
-      </p>
-      <!-- <img src="/Images/play_store.webp" alt="" srcset="" />
-      <img src="/Images/app_store.webp" alt="" srcset="" /> -->
-      <div>
-        <!--IMAGES VEGITABLES-->
-        <div>
-          <img
-            src="/Images/png-clipart-vegetables-herbs-vegetarian-cuisine-vegetable-natural-foods-leaf-vegetable-removebg-preview.png"
-            alt=""
-            class="w-80 h-30"
-          />
+    <div class="bg-green-100 flex">
+      <div class="p-2 max-w-md mx-auto">
+        <h1 class="font-medium font-Rajdhani Condensed text-5xl">
+          "GreenCart: Your Virtual Veggie Market"
+        </h1>
+        <p class="font-Smooch Sans text-base whitespace-normal">
+          VegEase brings the farmer's market to your screen. Shop the freshest
+          vegetables with a click, and we'll deliver nature's goodness to your
+          door. Your convenient, healthy lifestyle starts here.
+        </p>
+
+        <!-- Uncomment the following lines if you have images for app stores -->
+        <!-- <img src="/Images/play_store.webp" alt="Play Store" class="w-20 h-20 mx-2" />
+          <img src="/Images/app_store.webp" alt="App Store" class="w-20 h-20 mx-2" /> -->
+
+        <div class="flex justify-center items-center mt-4">
+          <!-- IMAGES VEGETABLES -->
+          <div class="mr-4">
+            <img
+              src="/Images/1_R_ZCf1TnwRX19bQcTcYyng-ai-brush-removebg-y2isci94.png"
+              alt="Vegetable Image 1"
+              class="w-94 h-94"
+            />
+          </div>
+          <div>
+            <img
+              src="/Images/png-clipart-vegetables-herbs-vegetarian-cuisine-vegetable-natural-foods-leaf-vegetable-removebg-preview.png"
+              alt="Vegetable Image 2"
+              class="w-100 h-120"
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -16,7 +16,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="bg-green-50">
+  <body class="bg-green-100">
     <!-- Navbar -->
     <nav class="bg-green-100 p-8 text-black">
       <div class="container mx-auto flex justify-between items-center">
@@ -26,9 +26,11 @@
             class="h-14 w-14"
             alt=""
           />
-          <h1 class="font-quicksand font-light text-2xl">InstaGro</h1>
+          <h1 class="font-light text-2xl">InstaGro</h1>
         </div>
-        <div class="input-container items-center flex">
+      
+        <div class="input-container items-center flex space-x-2">
+          
           <input
             type="text"
             name="Search"
@@ -36,7 +38,9 @@
             class="block w-full bg-gray-200 border-gray-600 rounded-full py-2 pl-4 pr-32 text-black placeholder:text-gray-400 sm:text-base sm:leading-6"
             placeholder="Search"
           />
+          <a href="#search">
           <i class="fas fa-search text-xl"></i>
+          </a>
         </div>
         <ul class="flex space-x-12">
           <li>
@@ -45,7 +49,7 @@
               class="icon-container hover:text-green-600 flex space-x-2 items-center"
             >
               <i class="fa-solid fa-phone text-lg"></i>
-              <p class="text-base">+880 1866 104 339</p>
+              <p class="text-base font-sans">+880 1866 104 339</p>
             </a>
           </li>
           <a
@@ -53,14 +57,14 @@
             class="icon-container hover:text-green-600 flex space-x-2 items-center"
           >
             <i class="fas fa-cart-shopping text-lg"></i>
-            <p class="text-base">$00.00</p>
+            <p class="text-base font-sans">$00.00</p>
           </a>
           <li>
             <a
               href="#user"
               class="icon-container hover:text-green-600 flex items-center"
             >
-              <i class="fas fa-user text-lg"></i>
+            <i class="fa-regular fa-circle-user text-2xl"></i>
             </a>
           </li>
         </ul>
@@ -68,25 +72,25 @@
     </nav>
 
     <!-- Body Content -->
-    <div class="container mx-auto mt-8 p-8 flex">
+    <div class="container mx-auto mt-8 p-8 flex md:flex-col lg:flex-row">
       <div class="p-8">
         <div class="p-5 max-w-md mx-16 mt-10">
           <h1
-            class="font-normal font-Rajdhani_Condensed text-4xl mb-4 inline-block"
+            class="font-serif font-Rajdhani_Condensed text-3xl mb-4 inline-block"
           >
             "GreenCart: Your Virtual Veggie Market for you"
           </h1>
           <p
-            class="font-Smooch_Sans text-base whitespace-normal text-left leading-loose"
+            class="font-serif text-base whitespace-normal text-left leading-relaxed"
           >
             VegEase brings the farmer's market to your screen. Shop the freshest
             vegetables with a click, and we'll deliver nature's goodness to your
-            door.
+            door at anytime.
           </p>
         </div>
 
         <!--app store-->
-        <div class="flex items-center space-x-6 md:ml-20 mt-6">
+        <div class="flex items-center space-x-5 md:ml-16 mt-6">
           <!--play store-->
           <a
             href="https://play.google.com/store/games?hl=en&gl=US"
@@ -110,29 +114,29 @@
       </div>
 
       <!--mobile  and veg Image-->
-      <div class="flex flex-col items-end -ml-8 mt-8">
+      <div class="flex flex-col items-end md:items-center -ml-56 mt-0">
         <!-- mobile Image -->
         <img
           src="/Images/1_R_ZCf1TnwRX19bQcTcYyng-ai-brush-removebg-y2isci94.png"
           alt=""
-          class="h-96 w-full mb-48"
+          class="h-96 w-full mb-48 mr-52"
         />
         <!-- Veg Image -->
         <img
           src="/Images/png-clipart-vegetables-herbs-vegetarian-cuisine-vegetable-natural-foods-leaf-vegetable-removebg-preview.png"
           alt=""
-          class="w-80 h-64 -mt-80"
+          class="w-96 h-64 -mt-80 -mr-20"
         />
       </div>
     </div>
     <!-- Food items images -->
     <h1
-    class="font-mono sm:ml-0 lg:ml-32 p-4 font-Rajdhani_Condensed text-3xl md:items-center lg:mb-2 inline-block"
+    class="font-mono sm:ml-0 lg:ml-32 p-4 font-Rajdhani_Condensed text-2xl md:items-center lg:mb-0 inline-block "
   >
   Grocery
   </h1>
     <div
-      class="flex flex-col md:flex-col lg:flex-row space-x-14 justify-around sm:ml-0 lg:ml-10 md:items-center lg:p-16"
+      class="flex flex-col md:flex-col lg:flex-row space-x-14 justify-around sm:ml-0 lg:ml-10 md:items-center lg:p-14"
     >
     
       <!-- Item 1 -->
@@ -198,9 +202,9 @@
       </div>
     </div>
     <!--Flash sale section-->
-    <div class="p-8">
+    <div class="p-4 lg:mt-14">
       <h1
-        class="font-mono sm:ml-0 lg:ml-28 p-2 font-Rajdhani_Condensed text-3xl md:items-center lg:mb-10 inline-block"
+        class="font-mono sm:ml-0 lg:ml-28 p-2 font-Rajdhani_Condensed text-2xl md:items-center  lg:mb-6 inline-block "
       >
         Flash Sale
       </h1>
